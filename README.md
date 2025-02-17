@@ -1,3 +1,4 @@
+# GT Movies Store
 **About our app**: GT Movies Store is a web application where users can learn about different movies, give their own thoughts, as well as place orders to buy them.
    
 **App Features**
