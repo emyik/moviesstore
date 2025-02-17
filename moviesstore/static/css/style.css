@@ -32,10 +32,15 @@
   color: #fff;
 }
 .img-card-200 {
-  width: fit-content;
   max-height: 200px;
+  align-items:flex-start;
+  justify-content:flex-start;
+
 }
 .img-card-400 {
   width: fit-content;
   max-height: 400px;
+}
+.p-2 {
+    display: flex;
 }
