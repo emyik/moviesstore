@@ -38,9 +38,13 @@
 
 }
 .img-card-400 {
-  width: fit-content;
   max-height: 400px;
+  align-items:flex-start;
+  justify-content:flex-start;
 }
 .p-2 {
     display: flex;
+}
+.img400Parent {
+   display: flex;
 }
