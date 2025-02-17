@@ -48,3 +48,8 @@
 .img400Parent {
    display: flex;
 }
+.buzHomePage {
+  align-items:flex-start;
+  justify-content:flex-start;
+  max-height: 30vh;
+}

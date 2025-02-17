@@ -2,7 +2,7 @@
 {% block content %}
 <header class="masthead bg-index text-white text-center py-4">
   <div class="container d-flex align-items-center flex-column pt-2">
-    <h2>Movies Store</h2>
+    <h2>GT Movies Store</h2>
     <p>Your Ticket to Unlimited Entertainment!</p>
   </div>
 </header>
@@ -12,7 +12,21 @@
       <div class="col mx-auto text-center mb-3">
         <h4>Welcome to the best movie store!!</h4>
       </div>
+      <div class="row mt-4">
+          <img src="{{ "/media/buzz/" }}buzz.jpg"
+            >
+      </div>
     </div>
   </div>
+    <style>
+        @media (orientation: portrait) {
+            .spacer {
+                 display: block;
+                 height: 30vh;
+                  width: 100%;
+                }
+            }
+    </style>
+    <div class="spacer"></div>
 </div>
 {% endblock content %}
