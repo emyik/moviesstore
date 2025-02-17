@@ -44,3 +44,6 @@
 .p-2 {
     display: flex;
 }
+.card-img, .card-img-bottom, .card-img-top {
+  width: auto;
+}
